@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Syllabus</title>
-  <meta name="description" content="(Spring '19) Principles of Programming Languages (CMSC245 at Haverford College)">
+  <meta name="description" content="(Spring '20) Programming Languages: Theory and Practice (CMSC352 at Syracuse University)">
 
-  <link rel="stylesheet" href="http://kmicinski.com/cs245/css/main.css">
-  <link rel="canonical" href="http://kmicinski.com/cs245/syllabus/">
-  <link rel="alternate" type="application/rss+xml" title="CS245" href="http://kmicinski.com/cs245/feed.xml">
+  <link rel="stylesheet" href="http://kmicinski.com/cis352-s20/css/main.css">
+  <link rel="canonical" href="http://kmicinski.com/cis352-s20/syllabus/">
+  <link rel="alternate" type="application/rss+xml" title="CIS352" href="http://kmicinski.com/cis352-s20/feed.xml">
 </head>
 
   <body>
@@ -19,7 +19,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href=http://kmicinski.com//cs245/>CS245</a>
+    <a class="site-title" href=http://kmicinski.com//cis352-s20/>CIS352</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -33,29 +33,29 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="http://kmicinski.com//cs245/assignments/">Assignments</a>
+          <a class="page-link" href="http://kmicinski.com//cis352-s20/assignments/">Assignments</a>
           
         
           
-          <a class="page-link" href="http://kmicinski.com//cs245/blog/">Posts</a>
-          
-        
-          
-        
+          <a class="page-link" href="http://kmicinski.com//cis352-s20/blog/">Posts</a>
           
         
           
         
           
-          <a class="page-link" href="http://kmicinski.com//cs245/resources">Resources</a>
+        
           
         
           
-          <a class="page-link" href="http://kmicinski.com//cs245/schedule/">Schedule</a>
+          <a class="page-link" href="http://kmicinski.com//cis352-s20/resources">Resources</a>
           
         
           
-          <a class="page-link" href="http://kmicinski.com//cs245/syllabus/">Syllabus</a>
+          <a class="page-link" href="http://kmicinski.com//cis352-s20/schedule/">Schedule</a>
+          
+        
+          
+          <a class="page-link" href="http://kmicinski.com//cis352-s20/syllabus/">Syllabus</a>
           
         
       </div>
@@ -70,8 +70,8 @@
         <article class="post">
 
   <div class="post-content">
-    <h2 id="principles-of-programming-languages">Principles of Programming Languages</h2>
-<p>(<em>CMSC 245</em> at Haverford College)</p>
+    <h2 id="programming-languages-theory-and-practice">Programming Languages: Theory and Practice</h2>
+<p>(<em>CIS 352</em> at Syracuse U)</p>
 
 <p><strong>Note</strong>: parts of this syllabus are subject to change with adequate
 notice to students.</p>
@@ -80,63 +80,68 @@ notice to students.</p>
 languages, including lab experience using different kinds of languages
 and experience implementing programming language features.</p>
 
-<p><strong>Prerequisites</strong>:</p>
-<ul>
-  <li>CMSC 106 or 107 (or 206 at Bryn Mawr) or permission from instructor</li>
-</ul>
-
 <p><strong>Workload</strong>:</p>
 <ul>
   <li>3 lecture hours per week</li>
-  <li>1 lab hour per week</li>
-  <li>This will be a lab / project intensive class. Approximately 6-10
+  <li>8 projects (each worth 7%)</li>
+  <li>2 in-class coding exams (each worth 5%)</li>
+  <li>1 midterm exam (worth 12%)</li>
+  <li>1 final exam (worth 20%)</li>
+  <li>This will be a project intensive class. Approximately 6-10
 hours per week <em>outside</em> of class will be expected from
 students. I recommend against taking this course concurrent with
 other project-heavy courses.</li>
 </ul>
-
-<p><strong>Cap</strong>: 24 (Hard cap due to room size)</p>
 
 <h2 id="course-overview">Course Overview</h2>
 
 <p>This course will introduce many of the principles of programming
 language design and implementation. We will discuss numerous features
 of several programming languages and the algorithms and data
-structures that are needed to provide these features. Labs and
-homework will cover both the use of various features and high-level
-understanding the algorithms and data structures involved in their
-implementation. CMSC 350–Compiler Design–provides more in-depth
-information about many of these algorithms and data structures through
-labs covering their application to a single simple language.</p>
+structures that are needed to provide these features. Projects will
+cover both the use of various features and high-level understanding
+the algorithms and data structures involved in their
+implementation.</p>
 
-<p>CMSC 245 lectures (and labs) will include examples (and exercises) in
-C++, Racket, and x86 or LLVM assembly language. No prior knowledge of
-C++, Scheme, assembly is needed for this course, but students should
-be familiar with the programming techniques from CMSC 105/106
-(e.g. creation of classes and functions/methods in Python (or some
-other language), and confidence with basic uses of both the pure
-functional and imperative views of functions and data).</p>
+<p>Lectures and labs will include examples (and exercises) in Racket. No
+prior knowledge of Racket is needed for this course, but students
+should be familiar with the programming techniques from their
+lower-level courses and possess fluency in basic functional
+programming.</p>
 
 <h2 id="grading">Grading</h2>
 
 <ul>
-  <li>Projects: 50%</li>
-  <li>Labs: 10%</li>
-  <li>Exams: 35%
+  <li>Projects: 56%</li>
+  <li>Exams: 44%
     <ul>
-      <li>Midterm 1: 17.5%</li>
-      <li>Midterm 2: 17.5%</li>
-      <li>This course will not have a final exam</li>
+      <li>Midterm: 14%</li>
+      <li>Final: 20%</li>
+      <li>Coding Exam 0: 5%</li>
+      <li>Coding Exam 1: 5%</li>
     </ul>
   </li>
-  <li>Participation: 5%</li>
-  <li>Participation will <em>not</em> be “free” and will be measured in various ways (including the autograder)</li>
 </ul>
 
-<p>Note that both midterms 1 and 2 may include a programming aspect where
-live programming is required. I reserve the right to make the midterms
-“coding exams.” You should expect that exams will include both written
-and programming components.</p>
+<h2 id="grade-cutoffs">Grade cutoffs</h2>
+
+<p>These are rough grade cutoffs. I never fit grade distributions to a
+normal curve (e.g., specifying that only 10% of students may earn an
+A), however I may choose to lower the bar for some letter grades. I
+will not curve assignments or projects.</p>
+
+<ul>
+  <li>93% – A</li>
+  <li>89% – A-</li>
+  <li>84% – B+</li>
+  <li>80% – B</li>
+  <li>77% – B-</li>
+  <li>74% – C+</li>
+  <li>70% – C</li>
+  <li>65% – C-</li>
+  <li>55% – D</li>
+  <li>0%  – F</li>
+</ul>
 
 <h2 id="autograder">Autograder</h2>
 
@@ -146,17 +151,14 @@ grading, though we will <em>not</em> employ subjective grading. More
 pointedly: we will <em>not</em> award partial credit for solutions that have
 the right ideas but do not pass our tests.</p>
 
-<p>You will email me at the beginning of the class to get your username
-and password for the autograder.</p>
-
 <h2 id="late-projects-and-extensions">Late Projects and Extensions</h2>
 
 <p>I used to extend project deadlines, but I have found that this is
 often unfair to the students who start on time (and more students than
 I would have thought have raised this point to me
-privately). Therefore, project extensions will be rare–and usually
-only done if it is becasue of a mistake I made. Project extensions for
-students will not be granted except for religious observances and
+privately). Therefore, project extensions will be rare–and only in
+the event of things such as university closures. Project extensions
+for students will not be granted except for religious observances and
 extenuating circumstances (family illness, etc..). The late policy is
 as follows:</p>
 
@@ -165,133 +167,87 @@ as follows:</p>
     <p>Projects turned in on time will earn a maximum of 100%</p>
   </li>
   <li>
-    <p>Projects turned in up to 48 hours late will have a 15% penalty
+    <p>Projects turned in up to 72 hours late will have a 15% penalty
 applied.</p>
   </li>
   <li>
-    <p>Projects turned in after 48 hours late (until the end of the term)
+    <p>Projects turned in after 72 hours late (until the end of the term)
 will have a 30% penalty applied.</p>
   </li>
   <li>
     <p>Your project grade always be the maximum possible. For example,
-let’s say you make an on-time project submission for 60%, but you
-then turn in a project which earns an 75%. This submission would
-earn a 63.75%. Three days after the deadline you turn in a project
-earning 100%. Your final score is 70%, as the 70% (100% with a 30%
-penalty) still got the maximum grade of any submission.</p>
+let’s say you make an on-time project submission for 60%, but the
+next day you turn in a project which earns an 75%. This submission
+would earn a 63.75%. Five days after the deadline you turn in a
+project earning 100%. Your final score is 70%, as the 70% (100% with
+a 30% penalty) still got the maximum grade of any submission.</p>
   </li>
 </ul>
 
-<p>In other words, you <em>should</em> be able to earn <strong>at least</strong> a 70% on all
-of the projects with enough work.</p>
-
-<h2 id="texts">Texts</h2>
-
-<p>All the books for this course are free with the exception of “The C++
-Tour.” I will disseminate copies of the relevant C++ Tour chapters,
-and there are a few free chapters online.</p>
-
-<ul>
-  <li>
-    <p><a href="https://isocpp.org/tour">The C++ Tour</a> First four chapters
-available for free.</p>
-  </li>
-  <li>
-    <p><a href="http://cs.brown.edu/courses/cs173/2012/book/book.pdf">Shriram Krishnamurti’s free book “Programming languages: Application and
-Interpretation”</a></p>
-  </li>
-  <li>
-    <p><a href="https://docs.racket-lang.org/guide/">The Racket Guide</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.amazon.com/C-Programming-Language-4th/dp/0321563840">The C++ Programming
-Language</a>. This
-is a reference book. I don’t think it’s worth buying yet, since it
-includes a lot of material irrelevant to the class. But if you want
-to become an expert-level C++ programmer it might be useful to pick
-up a copy.</p>
-  </li>
-</ul>
+<p>You <em>should</em> be able to earn <strong>at least</strong> a 70% on all of the projects
+with enough work.</p>
 
 <h2 id="topics">Topics</h2>
 
-<p>We​ ​will​ ​cover​ ​parts​ ​of​ ​the​ ​following​ ​topics,​ ​adjusted​ ​for​ ​time​ ​and​
-​pace​ ​of​ ​the​ ​course,​ ​along​ ​with student​ ​interest​ ​in​ ​each​ ​area.</p>
+<p>We will plan to cover all of the following, though some may be dropped
+for time:</p>
 
 <ul>
-  <li>C++: Intro and Syntax
-    <ul>
-      <li>Loops, pointers, structs, classes, etc…</li>
-    </ul>
-  </li>
-  <li>Virtual Method Tables</li>
-  <li>RAII</li>
-  <li>x86 Assembly Programming
-    <ul>
-      <li>Calling conventions</li>
-      <li>Data sections</li>
-      <li>Binary layout</li>
-    </ul>
-  </li>
-  <li>Low-level security / exploits
-    <ul>
-      <li>Buffer overflows / attack injection</li>
-    </ul>
-  </li>
-  <li>Lambda Calculus</li>
-  <li>Racket
-    <ul>
-      <li>S-Expressions, Immutability, etc…</li>
-    </ul>
-  </li>
-  <li>Higher-Order Functions
-    <ul>
-      <li>Map, fold, SKI calculus, etc..</li>
-    </ul>
-  </li>
-  <li>Formal Language Semantics
-    <ul>
-      <li>Big-Step Semantics</li>
-      <li>Small-Step Semantics</li>
-    </ul>
-  </li>
-  <li>Church-Encodings</li>
-  <li>Continuations, call/cc, exceptions, delimited continuations, etc..</li>
-  <li>Closures</li>
-  <li>Interpreter implementation:
-    <ul>
-      <li>Stack passing</li>
-    </ul>
-  </li>
-  <li>CPS Conversion</li>
-  <li>Type Systems
-    <ul>
-      <li>Typed Racket</li>
-    </ul>
-  </li>
-  <li>Logic Programming</li>
-  <li>Datalog</li>
+  <li>Programming in Racket</li>
+  <li>Higher-order functions</li>
+  <li>Execution models and their impact on the stack</li>
+  <li>Pattern matching</li>
+  <li>Immutable data structures</li>
+  <li>Okasaki-style immutable queues</li>
+  <li>Immutable binary trees</li>
+  <li>Quad-trees</li>
+  <li>Static scope</li>
+  <li>Dynamic scope</li>
+  <li>Lambda calculus</li>
+  <li>Textual-reduction semantics</li>
+  <li>Big-step semantics (CE-style evaluators)</li>
+  <li>Metacircular interpreters</li>
+  <li>Church encoding</li>
+  <li>Control and continuations</li>
+  <li>Abstract machines</li>
+  <li>The CEK machine</li>
+  <li>A-Normal Form</li>
+  <li>Continuation-passing style</li>
+  <li>Top-down parsing</li>
+  <li>State-passing style</li>
+  <li>Simply-typed lambda calculus</li>
+  <li>Type inference</li>
+  <li>Hygienic macros</li>
+  <li>Logic programming</li>
+  <li>MiniKanren</li>
 </ul>
 
 <h2 id="projects-and-labs">Projects and Labs</h2>
 
-<p>This course will have between six and eight individual projects and
-(roughly) weekly labs. Each of these will be completed using the
-course’s autograder. Lab attendance is expected and required. You may
-be excused from labs with adequate notice to and permission from the
-instructor.</p>
+<p>This course will have eight individual projects. Each of these will be
+completed using the course’s autograder. Lab attendance is encouraged,
+but not required. Labs will introduce projects, provide extra help,
+give exercises, etc…</p>
 
 <h2 id="collaboration-and-the-honor-code">Collaboration and the Honor Code</h2>
 
-<p>The <a href="https://docs.google.com/document/d/1xpnhkXiqiQuktb_p8NkFKm-uhRCNoIYTeZPZTFLDIt4/edit?usp=sharing">CS Collaboration
-Policy</a>
-will govern work in this course; as the semester progresses, we will
-add detail about what at-the-computer help is acceptable for this
-course. For now, the big ideas are:</p>
-
 <ul>
   <li>
-    <p>Read and understand the policy</p>
+    <p>Assignments and exams must be done alone</p>
+  </li>
+  <li>
+    <p>Specifically, you must never send your code to anyone or allow
+anyone to watch you code.</p>
+  </li>
+  <li>
+    <p>The autograder employs elaborate cheat-detection techniques. These
+techniques will compare your code to other students’
+submissions. The TAs will be using these features to periodically
+scan for students who are cheating.</p>
+  </li>
+  <li>
+    <p>All apparent cases of academic dishonesty will be reported, even if
+the student believes they made an honest mistake.</p>
   </li>
   <li>
     <p>You should feel free to discuss “ideas” about the solution with
@@ -316,54 +272,80 @@ understanding in your head.</p>
   </li>
 </ul>
 
-<p><strong>Most importantly</strong>: You should <strong>never</strong> share code with another
-  student. This includes both sending a file to another student and
-  “over the shoulder” copying (even when, e.g., variable names are
-  changed, etc..). In the eyes of the instructor, these are both
-  equally bad. This bears repeating: you should never be sitting and
-  helping another along by writing their code. By doing so you are
-  both violating the honor policy and disadvanting the student you are
-  helping (as they may not then properly learn the material).</p>
+<p><strong>Again</strong>: You should <strong>never</strong> share code with another student. This
+  includes both sending a file to another student and “over the
+  shoulder” copying (even when, e.g., variable names are changed,
+  etc..). In the eyes of the instructor, these are both equally
+  bad. You should never be sitting and helping another along by
+  writing their code. By doing so you are both violating the honor
+  policy and disadvanting the student you are helping (as they may not
+  then properly learn the material).</p>
 
-<h2 id="ads-and-student-support">ADS and Student Support</h2>
+<h2 id="student-support">Student Support</h2>
 
-<p>Haverford College is committed to providing equal access to students
-with a disability.  If you have (or think you have) a learning
-difference or disability – including mental health, medical, or
-physical impairment, please contact the Office of Access and
-Disability Services (ADS) at <code class="highlighter-rouge">hc-ads@haverford.edu</code>. The Coordinator
-will confidentially discuss the process to establish reasonable
-accommodations.</p>
+<p>Syracuse University values diversity and inclusion; we are committed
+to a climate of mutual respect and full participation. There may be
+aspects of the instruction or design of this course that result in
+barriers to your inclusion and full participation in this course. I
+invite any student to meet with me to discuss strategies and/or
+accommodations (academic adjustments) that may be essential to your
+success and to collaborate with the Office of Disability Services
+(ODS) in this process.</p>
 
-<p>Students who have already been approved to receive academic
-accommodations and want to use their accommodations in this course
-should share their verification letter with me and also make
-arrangements to meet with me as soon as possible to discuss their the
-specific accommodations. Please note that accommodations are not
-retroactive and require advance notice to implement.</p>
+<p>If you would like to discuss disability-accommodations or register
+with ODS, please visit their website at
+http://disabilityservices.syr.edu. Please call (315) 443-4498 or email
+disabilityservices@syr.edu for more detailed information.</p>
 
-<p>It is a state law in Pennsylvania that individuals must be given
-advance notice if they are to be recorded. Therefore, any student who
-has a disability-related need to audio record this class must first be
-approved for this accommodation from the Coordinator of Access and
-Disability Services and then must speak with me. Other class members
-will need to be aware that this class may be recorded.</p>
+<p>ODS is responsible for coordinating disability-related academic
+accommodations and will work with the student to develop an access
+plan. Since academic accommodations may require early planning and
+generally are not provided retroactively, please contact ODS as soon
+as possible to begin this process.</p>
+
+<h2 id="accreditation">Accreditation</h2>
+
+<p>As part of the regular ABET accreditation process for the
+undergraduate program in computer science, we may be collecting
+samples of students’ work in each of our undergraduate classes.  As a
+result, some of your labs/homeworks/exams may be photocopied/scanned
+to be presented for accreditation at some later point.</p>
+
+<h2 id="discrimination-and-harassment">Discrimination and Harassment</h2>
+
+<p>The University does not discriminate and prohibits harassment or
+discrimination related to any protected category including creed,
+ethnicity, citizenship, sexual orientation, national origin, sex,
+gender, pregnancy, disability, marital status, age, race, color,
+veteran status, military status, religion, sexual orientation,
+domestic violence status, genetic information, gender identity, gender
+expression or perceived gender.</p>
+
+<p>Any complaint of discrimination or harassment related to any of these
+protected bases should be reported to Sheila Johnson-Willis, the
+Universitys Chief Equal Opportunity &amp; Title IX Officer. She is
+responsible for coordinating compliance efforts under various laws
+including Titles VI, VII, IX and Section 504 of the Rehabilitation
+Act. She can be contacted at Equal Opportunity, Inclusion, and
+Resolution Services, 005 Steele Hall, Syracuse University, Syracuse,
+NY 13244-1120; by email: titleix@syr.edu; or by telephone:
+315-443-0211.</p>
+
+<p>If you notice any incidents of harassment or discrimination, however
+minor, please email me. You may wish to use an anonymous email service
+such as https://anonymousemail.me/. Please feel free to tell me as
+much as you feel comfortable.  I am a mandatory Title IX reporter and
+must report incidents such as sexual harassment, relationship
+violence, stalking, etc…</p>
 
 <h2 id="slack">Slack</h2>
 
 <p>Slack is an instant messaging app for teams. We’ll be using it,
 hopefully a lot. This is the best place to get in touch with me for
 one-off questions, ask for an appointment for office hours,
-etc.. Please join the course Slack by clicking this link:</p>
+etc..</p>
 
-<p><a href="https://join.slack.com/t/cs245-s19/shared_invite/enQtNTI4MDMwMDE1NDkyLTMzNzY5NTZjZWRlZDNkZTczY2Y0YzQ1NGNhMGE3MzIwYjUxNzA5NTIzYmI0Zjc5ODY2NTg3Njg3N2RmMDE2YmQ">Join here!</a></p>
-
-<h2 id="computer-configuration-and-the-autograder">Computer Configuration and the Autograder</h2>
-
-<p>The following tutorial explains how to set up</p>
-
-<p>https://www.youtube.com/watch?v=w7wLvLb2qCw</p>
-
+<p>Email me if you have not been invited to the course Slack.</p>
 
   </div>
 
@@ -378,12 +360,12 @@ etc.. Please join the course Slack by clicking this link:</p>
 
     
 
-    <!-- <h2 class="footer-heading">CS245</h2> -->
+    <!-- <h2 class="footer-heading">CIS352</h2> -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>CS245</li>
+          <li>CIS352</li>
           <li><a href="mailto:"></a></li>
         </ul>
       </div>
@@ -397,7 +379,7 @@ etc.. Please join the course Slack by clicking this link:</p>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>(Spring '19) Principles of Programming Languages (CMSC245 at Haverford College)</p>
+        <p>(Spring '20) Programming Languages: Theory and Practice (CMSC352 at Syracuse University)</p>
       </div>
     </div>
 
@@ -405,8 +387,8 @@ etc.. Please join the course Slack by clicking this link:</p>
 
 </footer>
 
-<script src=http://kmicinski.com//cs245/bower_components/jquery/dist/jquery.min.js></script>
-<script src=http://kmicinski.com//cs245/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js></script>
+<script src=http://kmicinski.com//cis352-s20/bower_components/jquery/dist/jquery.min.js></script>
+<script src=http://kmicinski.com//cis352-s20/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js></script>
 
 
   </body>
