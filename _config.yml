@@ -1,0 +1,18 @@
+# Site settings
+title: CIS352
+baseurl: "" #"cis352"
+url: "http://kmicinski.com/"
+description: "(Spring '20) Programming Languages: Theory and Practice (CMSC352 at Syracuse University)"
+permalink: pretty
+
+# Build settings
+#markdown: redcarpet
+
+# Build posts to appear in the future
+future: true
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
