@@ -1,8 +1,8 @@
 # Site settings
-title: CS245
-baseurl: "cs245"
+title: CIS352
+baseurl: "cis352-s21" #"cis352"
 url: "http://kmicinski.com/"
-description: "(Spring '19) Principles of Programming Languages (CMSC245 at Haverford College)"
+description: "CMSC352--Principles of Programming Languages (Spring '21) at Syracuse"
 permalink: pretty
 
 # Build settings

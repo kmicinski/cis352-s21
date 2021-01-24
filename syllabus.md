@@ -1,10 +1,183 @@
 ---
 title: Syllabus
-layout: page
+layout: default
 ---
 
 ## Programming Languages: Theory and Practice
 (*CIS 352* at Syracuse U)
+
+## Grading
+
+CIS352 employs a *specification-based grading* methodology. There are
+three categories of assignments:
+
+- Participation Credit
+  - Lots of participation points scattered throughout the term.
+  - Required quiz (on Blackboard) before each class gives 1 point (for correct answers).
+  - Volunteering to livecode in class gives 1 point.
+  - "Introduce yourself" to class (1 minute answer to question) gives 1 point.
+  - "Meet your professor" to discuss career goals gives 1 point.
+  - Groups that present answers to in-class questions will receive 1 point.
+- 6 programming projects
+  - Projects are assigned throughout the term. All projects are due at
+    11:59PM the last day of classes at SU (Friday, May 14, 2021 at
+    11:59PM US Eastern Time).
+  - 1 participation point will be awarded to all students who have &gt;50% test completion within 10 days of project handout.
+  - Projects will be graded via the autograder.
+  - Projects will receive one of three distinct grades (based on
+    automated tests):
+    - Minimally-satisfactory &mdash; Projects which pass a minimal
+      number of tests but do not pass enough to reach satisfactory.
+    - Satisfactory &mdash; Projects which successfully pass all
+      required tests.
+    - Excellent &mdash; Projects which successfully pass additional
+      tests or add extra / challenging features.
+    - Each project handout will include a specification for what is
+      required to achieve each of these grades.
+- 13 exam questions
+  - There are three 60-minute quizzes and one 120-minute exam.
+  - *All* quizzes / exams will be cumulative.
+  - Exam questions will all be derived from the [written learning
+    objectives]({{ "/learning-objectives" | absolute_url }}) for
+    CIS352.
+  - Questions will be scored as:
+    - Satisfactory &mdash; all required components of the answer are
+      included. Maybe one or two small mistakes, but answer is correct
+      at a high level.
+    - Excellent &mdash; answer is completely correct and (possibly)
+      includes answering challenging components from more advanced
+      parts of the material.
+  - If you miss a question on a quiz, you may answer it again on a
+    subsequent quiz / the final.
+  - However, you may only submit up to *six answers per quiz/exam*.
+  - For example, say you are going into the final and have correctly
+    answered 10 of the 13 learning objectives.
+
+
+<table class="table table-sm table-striped grade-table">
+  <thead>
+    <tr class="gradestop">
+      <th class="projdesc" colspan="3" scope="col"><strong>Projects</strong></th>
+      <th class="examdesc" colspan="2" scope="col"><strong>Exam Questions</strong></th>
+      <th scope="col">Grade</th>
+    </tr>
+    <tr class="gradestop">
+      <th class="smhgradecol" scope="col">Minimal</th>
+      <th class="smhgradecol" scope="col">Satisfactory</th>
+      <th class="lghgradecol" scope="col">Excellent</th>
+      <th class="smhgradecol" scope="col">Satisfactory</th>
+      <th class="lghgradecol" scope="col">Excellent</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="smgradecol">6/6</td>
+      <td class="smgradecol">5/6</td>
+      <td class="lggradecol">3/6</td>
+      <td class="smgradecol">12/13</td>
+      <td class="lggradecol">7/13</td>
+      <th scope="row">4.0</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">5/6</td>
+      <td class="smgradecol">5/6</td>
+      <td class="lggradecol">2/6</td>
+      <td class="smgradecol">11/13</td>
+      <td class="lggradecol">6/13</td>
+      <th scope="row">3.7</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">4/6</td>
+      <td class="smgradecol">4/6</td>
+      <td class="lggradecol">2/6</td>
+      <td class="smgradecol">11/13</td>
+      <td class="lggradecol">3/13</td>
+      <th scope="row">3.3</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">4/6</td>
+      <td class="smgradecol">3/6</td>
+      <td class="lggradecol">1/6</td>
+      <td class="smgradecol">10/13</td>
+      <td class="lggradecol">4/13</td>
+      <th scope="row">3.0</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">4/6</td>
+      <td class="smgradecol">3/6</td>
+      <td class="lggradecol">1/6</td>
+      <td class="smgradecol">9/13</td>
+      <td class="lggradecol">3/13</td>
+      <th scope="row">2.667</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">3/6</td>
+      <td class="smgradecol">2/6</td>
+      <td class="lggradecol">1/6</td>
+      <td class="smgradecol">9/13</td>
+      <td class="lggradecol">2/13</td>
+      <th scope="row">2.333</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">3/6</td>
+      <td class="smgradecol">3/6</td>
+      <td class="lggradecol">1/6</td>
+      <td class="smgradecol">9/13</td>
+      <td class="lggradecol">1/13</td>
+      <th scope="row">2.0</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">3/6</td>
+      <td class="smgradecol">3/6</td>
+      <td class="lggradecol">0/6</td>
+      <td class="smgradecol">8/13</td>
+      <td class="lggradecol">0/13</td>
+      <th scope="row">1.667</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">3/6</td>
+      <td class="smgradecol">2/6</td>
+      <td class="lggradecol">0/6</td>
+      <td class="smgradecol">7/13</td>
+      <td class="lggradecol">0/13</td>
+      <th scope="row">1.0</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">&lt; 3/6</td>
+      <td class="smgradecol">&lt; 3/6</td>
+      <td class="lggradecol">0/6</td>
+      <td class="smgradecol">&lt; 7/13</td>
+      <td class="lggradecol">0/13</td>
+      <th scope="row">&lt;1.0</th>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<table class="table table-sm table-striped grade-table">
+  <thead>
+    <tr class="gradestop">
+      <th scope="col"><strong>Participation Points</strong></th>
+      <th scope="col"><strong>GPA Effect</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="smgradecol">Under 20</td>
+      <th scope="row">Minus -.333 GPA Points</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">Between 20 &ndash; 30</td>
+      <th scope="row">No GPA Change</th>
+    </tr>
+    <tr>
+      <td class="smgradecol">More than 30</td>
+      <th scope="row">Plus +.333 GPA Points</th>
+    </tr>
+  </tbody>
+</table>
 
 **Note**: parts of this syllabus are subject to change with adequate
 notice to students.
