@@ -9,7 +9,7 @@
 
 // Our variables
 $base-font-family: 'Open Sans', sans-serif;
-$base-font-size:   18px;
+$base-font-size:   16px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -258,6 +258,14 @@ ul p {
     magin: auto;
 }
 
+.outcomes {
+  font-size: 15pt;
+}
+
+.obj {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
 
 .post-link {
     font-size: 12pt;
