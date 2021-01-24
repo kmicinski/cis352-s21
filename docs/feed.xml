@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CIS352</title>
-    <description>(Spring '20) Programming Languages: Theory and Practice (CMSC352 at Syracuse University)</description>
-    <link>http://kmicinski.com/cis352-s20/</link>
-    <atom:link href="http://kmicinski.com/cis352-s20/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Feb 2020 12:31:52 -0500</pubDate>
-    <lastBuildDate>Tue, 18 Feb 2020 12:31:52 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <title>CS245</title>
+    <description>(Spring '19) Principles of Programming Languages (CMSC245 at Haverford College)</description>
+    <link>http://kmicinski.com/cs245/</link>
+    <atom:link href="http://kmicinski.com/cs245/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Jan 2021 23:23:26 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2021 23:23:26 -0500</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Assignment 0: Introduction to Racket</title>
@@ -16,8 +16,8 @@
 &lt;p&gt;Available on http://autograder.org. Use your credentials to login.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://kmicinski.com/cis352-s20/projects/0</link>
-        <guid isPermaLink="true">http://kmicinski.com/cis352-s20/projects/0</guid>
+        <link>http://kmicinski.com/cs245/projects/0</link>
+        <guid isPermaLink="true">http://kmicinski.com/cs245/projects/0</guid>
         
         
         <category>assignment</category>
