@@ -8,9 +8,9 @@
   <meta name="description" content="CMSC352--Principles of Programming Languages (Spring '21) at Syracuse">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://kmicinski.com/cis352-s21/css/main.css">
-  <link rel="canonical" href="http://kmicinski.com/cis352-s21/syllabus/">
-  <link rel="alternate" type="application/rss+xml" title="CIS352" href="http://kmicinski.com/cis352-s21/feed.xml">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/syllabus/">
+  <link rel="alternate" type="application/rss+xml" title="CIS352" href="http://localhost:4000/feed.xml">
 </head>
 
   <body>
@@ -19,7 +19,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href=http://kmicinski.com//cis352-s21/>CIS352</a>
+    <a class="site-title" href=http://localhost:4000/>CIS352</a>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -29,13 +29,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href=http://kmicinski.com//cis352-s21/#schedule>Schedule</a>
+          <a class="nav-link" href=http://localhost:4000/#schedule>Schedule</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href=http://kmicinski.com//cis352-s21/learning-objectives>Objectives</a>
+          <a class="nav-link" href=http://localhost:4000/learning-objectives>Objectives</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href=http://kmicinski.com//cis352-s21/syllabus>Syllabus</a>
+          <a class="nav-link" href=http://localhost:4000/syllabus>Syllabus</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://autograde.org">Autograde</a>
@@ -69,11 +69,11 @@
     <!--        -->
     <!--      -->
     <!--        -->
-    <!--       <a class="page-link" href="http://kmicinski.com//cis352-s21/schedule/">Schedule</a> -->
+    <!--       <a class="page-link" href="http://localhost:4000/schedule/">Schedule</a> -->
     <!--        -->
     <!--      -->
     <!--        -->
-    <!--       <a class="page-link" href="http://kmicinski.com//cis352-s21/syllabus/">Syllabus</a> -->
+    <!--       <a class="page-link" href="http://localhost:4000/syllabus/">Syllabus</a> -->
     <!--        -->
     <!--      -->
     <!--        -->
@@ -89,6 +89,30 @@
       <div class="wrapper">
         <h2 id="programming-languages-theory-and-practice">Programming Languages: Theory and Practice</h2>
 <p>(<em>CIS 352</em> at Syracuse U)</p>
+
+<p><strong>Note</strong>: parts of this syllabus are subject to change with adequate
+notice to students.</p>
+
+<p>An introduction to the design and implementation of programming
+languages, including lab experience using different kinds of languages
+and experience implementing programming language features.</p>
+
+<p><strong>Workload</strong>:</p>
+<ul>
+  <li>Asynchronous video lecture units (at most ~80min per week)</li>
+  <li>Participation points:
+    <ul>
+      <li>Quiz before each lecture (closes as lecture begins)</li>
+      <li>See other sources of participation below</li>
+    </ul>
+  </li>
+  <li>6 projects</li>
+  <li>3 quizzes and a final, all cumulative (see grading note).</li>
+  <li>This will be a project intensive class. Approximately 6-10
+hours per week <em>outside</em> of class will be expected from
+students. I recommend against taking this course concurrent with
+other project-heavy courses.</li>
+</ul>
 
 <h2 id="grading">Grading</h2>
 
@@ -132,7 +156,7 @@ required to achieve each of these grades.</li>
     <ul>
       <li>There are three 60-minute quizzes and one 120-minute exam.</li>
       <li><em>All</em> quizzes / exams will be cumulative.</li>
-      <li>Exam questions will all be derived from the <a href="http://kmicinski.com//cis352-s21/learning-objectives">written learning
+      <li>Exam questions will all be derived from the <a href="http://localhost:4000/learning-objectives">written learning
 objectives</a> for
 CIS352.</li>
       <li>Questions will be scored as:
@@ -278,279 +302,233 @@ answered 10 of the 13 learning objectives.</li>
   </tbody>
 </table>
 
-<p><strong>Note</strong>: parts of this syllabus are subject to change with adequate
-notice to students.</p>
+<!-- ## Course Overview -->
 
-<p>An introduction to the design and implementation of programming
-languages, including lab experience using different kinds of languages
-and experience implementing programming language features.</p>
+<!-- This course will introduce many of the principles of programming -->
+<!-- language design and implementation. We will discuss numerous features -->
+<!-- of several programming languages and the algorithms and data -->
+<!-- structures that are needed to provide these features. Projects will -->
+<!-- cover both the use of various features and high-level understanding -->
+<!-- the algorithms and data structures involved in their -->
+<!-- implementation. -->
 
-<p><strong>Workload</strong>:</p>
-<ul>
-  <li>3 lecture hours per week</li>
-  <li>8 projects (each worth 7%)</li>
-  <li>2 in-class coding exams (each worth 5%)</li>
-  <li>1 midterm exam (worth 12%)</li>
-  <li>1 final exam (worth 20%)</li>
-  <li>This will be a project intensive class. Approximately 6-10
-hours per week <em>outside</em> of class will be expected from
-students. I recommend against taking this course concurrent with
-other project-heavy courses.</li>
-</ul>
+<!-- Lectures and labs will include examples (and exercises) in Racket. No -->
+<!-- prior knowledge of Racket is needed for this course, but students -->
+<!-- should be familiar with the programming techniques from their -->
+<!-- lower-level courses and possess fluency in basic functional -->
+<!-- programming. -->
 
-<h2 id="course-overview">Course Overview</h2>
+<!-- ## Grading -->
 
-<p>This course will introduce many of the principles of programming
-language design and implementation. We will discuss numerous features
-of several programming languages and the algorithms and data
-structures that are needed to provide these features. Projects will
-cover both the use of various features and high-level understanding
-the algorithms and data structures involved in their
-implementation.</p>
+<!-- - Projects: 56% -->
+<!-- - Exams: 44% -->
+<!--   - Midterm: 14% -->
+<!--   - Final: 20% -->
+<!--   - Coding Exam 0: 5% -->
+<!--   - Coding Exam 1: 5% -->
 
-<p>Lectures and labs will include examples (and exercises) in Racket. No
-prior knowledge of Racket is needed for this course, but students
-should be familiar with the programming techniques from their
-lower-level courses and possess fluency in basic functional
-programming.</p>
+<!-- ## Grade cutoffs -->
 
-<h2 id="grading-1">Grading</h2>
+<!-- These are rough grade cutoffs. I never fit grade distributions to a -->
+<!-- normal curve (e.g., specifying that only 10% of students may earn an -->
+<!-- A), however I may choose to lower the bar for some letter grades. I -->
+<!-- will not curve assignments or projects. -->
 
-<ul>
-  <li>Projects: 56%</li>
-  <li>Exams: 44%
-    <ul>
-      <li>Midterm: 14%</li>
-      <li>Final: 20%</li>
-      <li>Coding Exam 0: 5%</li>
-      <li>Coding Exam 1: 5%</li>
-    </ul>
-  </li>
-</ul>
+<!-- - 93% -- A -->
+<!-- - 89% -- A- -->
+<!-- - 84% -- B+ -->
+<!-- - 80% -- B -->
+<!-- - 77% -- B- -->
+<!-- - 74% -- C+ -->
+<!-- - 70% -- C -->
+<!-- - 65% -- C- -->
+<!-- - 55% -- D -->
+<!-- - 0%  -- F -->
 
-<h2 id="grade-cutoffs">Grade cutoffs</h2>
+<!-- ## Autograder -->
 
-<p>These are rough grade cutoffs. I never fit grade distributions to a
-normal curve (e.g., specifying that only 10% of students may earn an
-A), however I may choose to lower the bar for some letter grades. I
-will not curve assignments or projects.</p>
+<!-- Projects in this course will be graded by an automatic grader. We may -->
+<!-- adjust projects so that portions of the projects include style-based -->
+<!-- grading, though we will *not* employ subjective grading. More -->
+<!-- pointedly: we will *not* award partial credit for solutions that have -->
+<!-- the right ideas but do not pass our tests. -->
 
-<ul>
-  <li>93% – A</li>
-  <li>89% – A-</li>
-  <li>84% – B+</li>
-  <li>80% – B</li>
-  <li>77% – B-</li>
-  <li>74% – C+</li>
-  <li>70% – C</li>
-  <li>65% – C-</li>
-  <li>55% – D</li>
-  <li>0%  – F</li>
-</ul>
+<!-- ## Late Projects and Extensions -->
 
-<h2 id="autograder">Autograder</h2>
+<!-- I used to extend project deadlines, but I have found that this is -->
+<!-- often unfair to the students who start on time (and more students than -->
+<!-- I would have thought have raised this point to me -->
+<!-- privately). Therefore, project extensions will be rare--and only in -->
+<!-- the event of things such as university closures. Project extensions -->
+<!-- for students will not be granted except for religious observances and -->
+<!-- extenuating circumstances (family illness, etc..). The late policy is -->
+<!-- as follows: -->
 
-<p>Projects in this course will be graded by an automatic grader. We may
-adjust projects so that portions of the projects include style-based
-grading, though we will <em>not</em> employ subjective grading. More
-pointedly: we will <em>not</em> award partial credit for solutions that have
-the right ideas but do not pass our tests.</p>
+<!-- - Projects turned in on time will earn a maximum of 100% -->
 
-<h2 id="late-projects-and-extensions">Late Projects and Extensions</h2>
+<!-- - Projects turned in up to 72 hours late will have a 15% penalty -->
+<!--   applied. -->
 
-<p>I used to extend project deadlines, but I have found that this is
-often unfair to the students who start on time (and more students than
-I would have thought have raised this point to me
-privately). Therefore, project extensions will be rare–and only in
-the event of things such as university closures. Project extensions
-for students will not be granted except for religious observances and
-extenuating circumstances (family illness, etc..). The late policy is
-as follows:</p>
+<!-- - Projects turned in after 72 hours late (until the end of the term) -->
+<!--   will have a 30% penalty applied. -->
 
-<ul>
-  <li>
-    <p>Projects turned in on time will earn a maximum of 100%</p>
-  </li>
-  <li>
-    <p>Projects turned in up to 72 hours late will have a 15% penalty
-applied.</p>
-  </li>
-  <li>
-    <p>Projects turned in after 72 hours late (until the end of the term)
-will have a 30% penalty applied.</p>
-  </li>
-  <li>
-    <p>Your project grade always be the maximum possible. For example,
-let’s say you make an on-time project submission for 60%, but the
-next day you turn in a project which earns an 75%. This submission
-would earn a 63.75%. Five days after the deadline you turn in a
-project earning 100%. Your final score is 70%, as the 70% (100% with
-a 30% penalty) still got the maximum grade of any submission.</p>
-  </li>
-</ul>
+<!-- - Your project grade always be the maximum possible. For example, -->
+<!--   let's say you make an on-time project submission for 60%, but the -->
+<!--   next day you turn in a project which earns an 75%. This submission -->
+<!--   would earn a 63.75%. Five days after the deadline you turn in a -->
+<!--   project earning 100%. Your final score is 70%, as the 70% (100% with -->
+<!--   a 30% penalty) still got the maximum grade of any submission. -->
 
-<p>You <em>should</em> be able to earn <strong>at least</strong> a 70% on all of the projects
-with enough work.</p>
+<!-- You *should* be able to earn **at least** a 70% on all of the projects -->
+<!-- with enough work. -->
 
-<h2 id="topics">Topics</h2>
+<!-- ## Topics -->
 
-<p>We will plan to cover all of the following, though some may be dropped
-for time:</p>
+<!-- We will plan to cover all of the following, though some may be dropped -->
+<!-- for time: -->
 
-<ul>
-  <li>Programming in Racket</li>
-  <li>Higher-order functions</li>
-  <li>Execution models and their impact on the stack</li>
-  <li>Pattern matching</li>
-  <li>Immutable data structures</li>
-  <li>Okasaki-style immutable queues</li>
-  <li>Immutable binary trees</li>
-  <li>Quad-trees</li>
-  <li>Static scope</li>
-  <li>Dynamic scope</li>
-  <li>Lambda calculus</li>
-  <li>Textual-reduction semantics</li>
-  <li>Big-step semantics (CE-style evaluators)</li>
-  <li>Metacircular interpreters</li>
-  <li>Church encoding</li>
-  <li>Control and continuations</li>
-  <li>Abstract machines</li>
-  <li>The CEK machine</li>
-  <li>A-Normal Form</li>
-  <li>Continuation-passing style</li>
-  <li>Top-down parsing</li>
-  <li>State-passing style</li>
-  <li>Simply-typed lambda calculus</li>
-  <li>Type inference</li>
-  <li>Hygienic macros</li>
-  <li>Logic programming</li>
-  <li>MiniKanren</li>
-</ul>
+<!-- - Programming in Racket -->
+<!-- - Higher-order functions -->
+<!-- - Execution models and their impact on the stack -->
+<!-- - Pattern matching -->
+<!-- - Immutable data structures -->
+<!-- - Okasaki-style immutable queues -->
+<!-- - Immutable binary trees -->
+<!-- - Quad-trees -->
+<!-- - Static scope -->
+<!-- - Dynamic scope -->
+<!-- - Lambda calculus -->
+<!-- - Textual-reduction semantics -->
+<!-- - Big-step semantics (CE-style evaluators) -->
+<!-- - Metacircular interpreters -->
+<!-- - Church encoding -->
+<!-- - Control and continuations -->
+<!-- - Abstract machines -->
+<!-- - The CEK machine -->
+<!-- - A-Normal Form -->
+<!-- - Continuation-passing style -->
+<!-- - Top-down parsing -->
+<!-- - State-passing style -->
+<!-- - Simply-typed lambda calculus -->
+<!-- - Type inference -->
+<!-- - Hygienic macros -->
+<!-- - Logic programming -->
+<!-- - MiniKanren -->
 
-<h2 id="projects-and-labs">Projects and Labs</h2>
+<!-- ## Projects and Labs -->
 
-<p>This course will have eight individual projects. Each of these will be
-completed using the course’s autograder. Lab attendance is encouraged,
-but not required. Labs will introduce projects, provide extra help,
-give exercises, etc…</p>
+<!-- This course will have eight individual projects. Each of these will be -->
+<!-- completed using the course's autograder. Lab attendance is encouraged, -->
+<!-- but not required. Labs will introduce projects, provide extra help, -->
+<!-- give exercises, etc... -->
 
-<h2 id="collaboration-and-the-honor-code">Collaboration and the Honor Code</h2>
+<!-- ## Collaboration and the Honor Code -->
 
-<ul>
-  <li>
-    <p>Assignments and exams must be done alone</p>
-  </li>
-  <li>
-    <p>Specifically, you must never send your code to anyone or allow
-anyone to watch you code.</p>
-  </li>
-  <li>
-    <p>The autograder employs elaborate cheat-detection techniques. These
-techniques will compare your code to other students’
-submissions. The TAs will be using these features to periodically
-scan for students who are cheating.</p>
-  </li>
-  <li>
-    <p>All apparent cases of academic dishonesty will be reported, even if
-the student believes they made an honest mistake.</p>
-  </li>
-  <li>
-    <p>You should feel free to discuss “ideas” about the solution with
-peers, but you should basically never be getting help from peers
-about your code. If you do, it should only be in the abstract (e.g.,
-“can you use operator overloading to implement that?” or “do you
-think it would be sensible to implement this with <code class="language-plaintext highlighter-rouge">map</code>?”) and not
-particularized to your codebase.</p>
-  </li>
-  <li>
-    <p>Cite all help other than the professor, T.A., and
-required/recommended text (you are allowed to cite those if you
-wish, but it is not required unless you are specifically told
-otherwise); note that proper citation is sufficient to avoid any
-charge of academic dishonesty, and we will not be particularly
-focused on copyright law during lab work.</p>
-  </li>
-  <li>
-    <p>It is fine to get help away from the computer, as long as you erase
-all notes and return to your computer with only the new
-understanding in your head.</p>
-  </li>
-</ul>
+<!-- - Assignments and exams must be done alone -->
 
-<p><strong>Again</strong>: You should <strong>never</strong> share code with another student. This
-  includes both sending a file to another student and “over the
-  shoulder” copying (even when, e.g., variable names are changed,
-  etc..). In the eyes of the instructor, these are both equally
-  bad. You should never be sitting and helping another along by
-  writing their code. By doing so you are both violating the honor
-  policy and disadvanting the student you are helping (as they may not
-  then properly learn the material).</p>
+<!-- - Specifically, you must never send your code to anyone or allow -->
+<!--   anyone to watch you code. -->
 
-<h2 id="student-support">Student Support</h2>
+<!-- - The autograder employs elaborate cheat-detection techniques. These -->
+<!--   techniques will compare your code to other students' -->
+<!--   submissions. The TAs will be using these features to periodically -->
+<!--   scan for students who are cheating. -->
 
-<p>Syracuse University values diversity and inclusion; we are committed
-to a climate of mutual respect and full participation. There may be
-aspects of the instruction or design of this course that result in
-barriers to your inclusion and full participation in this course. I
-invite any student to meet with me to discuss strategies and/or
-accommodations (academic adjustments) that may be essential to your
-success and to collaborate with the Office of Disability Services
-(ODS) in this process.</p>
+<!-- - All apparent cases of academic dishonesty will be reported, even if -->
+<!--   the student believes they made an honest mistake. -->
 
-<p>If you would like to discuss disability-accommodations or register
-with ODS, please visit their website at
-http://disabilityservices.syr.edu. Please call (315) 443-4498 or email
-disabilityservices@syr.edu for more detailed information.</p>
+<!-- - You should feel free to discuss "ideas" about the solution with -->
+<!--   peers, but you should basically never be getting help from peers -->
+<!--   about your code. If you do, it should only be in the abstract (e.g., -->
+<!--   "can you use operator overloading to implement that?" or "do you -->
+<!--   think it would be sensible to implement this with `map`?") and not -->
+<!--   particularized to your codebase. -->
 
-<p>ODS is responsible for coordinating disability-related academic
-accommodations and will work with the student to develop an access
-plan. Since academic accommodations may require early planning and
-generally are not provided retroactively, please contact ODS as soon
-as possible to begin this process.</p>
+<!-- - Cite all help other than the professor, T.A., and -->
+<!--   required/recommended text (you are allowed to cite those if you -->
+<!--   wish, but it is not required unless you are specifically told -->
+<!--   otherwise); note that proper citation is sufficient to avoid any -->
+<!--   charge of academic dishonesty, and we will not be particularly -->
+<!--   focused on copyright law during lab work. -->
 
-<h2 id="accreditation">Accreditation</h2>
+<!-- - It is fine to get help away from the computer, as long as you erase -->
+<!--   all notes and return to your computer with only the new -->
+<!--   understanding in your head. -->
 
-<p>As part of the regular ABET accreditation process for the
-undergraduate program in computer science, we may be collecting
-samples of students’ work in each of our undergraduate classes.  As a
-result, some of your labs/homeworks/exams may be photocopied/scanned
-to be presented for accreditation at some later point.</p>
+<!-- **Again**: You should **never** share code with another student. This -->
+<!--   includes both sending a file to another student and "over the -->
+<!--   shoulder" copying (even when, e.g., variable names are changed, -->
+<!--   etc..). In the eyes of the instructor, these are both equally -->
+<!--   bad. You should never be sitting and helping another along by -->
+<!--   writing their code. By doing so you are both violating the honor -->
+<!--   policy and disadvanting the student you are helping (as they may not -->
+<!--   then properly learn the material). -->
 
-<h2 id="discrimination-and-harassment">Discrimination and Harassment</h2>
+<!-- ## Student Support -->
 
-<p>The University does not discriminate and prohibits harassment or
-discrimination related to any protected category including creed,
-ethnicity, citizenship, sexual orientation, national origin, sex,
-gender, pregnancy, disability, marital status, age, race, color,
-veteran status, military status, religion, sexual orientation,
-domestic violence status, genetic information, gender identity, gender
-expression or perceived gender.</p>
+<!-- Syracuse University values diversity and inclusion; we are committed -->
+<!-- to a climate of mutual respect and full participation. There may be -->
+<!-- aspects of the instruction or design of this course that result in -->
+<!-- barriers to your inclusion and full participation in this course. I -->
+<!-- invite any student to meet with me to discuss strategies and/or -->
+<!-- accommodations (academic adjustments) that may be essential to your -->
+<!-- success and to collaborate with the Office of Disability Services -->
+<!-- (ODS) in this process. -->
 
-<p>Any complaint of discrimination or harassment related to any of these
-protected bases should be reported to Sheila Johnson-Willis, the
-Universitys Chief Equal Opportunity &amp; Title IX Officer. She is
-responsible for coordinating compliance efforts under various laws
-including Titles VI, VII, IX and Section 504 of the Rehabilitation
-Act. She can be contacted at Equal Opportunity, Inclusion, and
-Resolution Services, 005 Steele Hall, Syracuse University, Syracuse,
-NY 13244-1120; by email: titleix@syr.edu; or by telephone:
-315-443-0211.</p>
+<!-- If you would like to discuss disability-accommodations or register -->
+<!-- with ODS, please visit their website at -->
+<!-- http://disabilityservices.syr.edu. Please call (315) 443-4498 or email -->
+<!-- disabilityservices@syr.edu for more detailed information. -->
 
-<p>If you notice any incidents of harassment or discrimination, however
-minor, please email me. You may wish to use an anonymous email service
-such as https://anonymousemail.me/. Please feel free to tell me as
-much as you feel comfortable.  I am a mandatory Title IX reporter and
-must report incidents such as sexual harassment, relationship
-violence, stalking, etc…</p>
+<!-- ODS is responsible for coordinating disability-related academic -->
+<!-- accommodations and will work with the student to develop an access -->
+<!-- plan. Since academic accommodations may require early planning and -->
+<!-- generally are not provided retroactively, please contact ODS as soon -->
+<!-- as possible to begin this process. -->
 
-<h2 id="slack">Slack</h2>
+<!-- ## Accreditation -->
 
-<p>Slack is an instant messaging app for teams. We’ll be using it,
-hopefully a lot. This is the best place to get in touch with me for
-one-off questions, ask for an appointment for office hours,
-etc..</p>
+<!-- As part of the regular ABET accreditation process for the -->
+<!-- undergraduate program in computer science, we may be collecting -->
+<!-- samples of students' work in each of our undergraduate classes.  As a -->
+<!-- result, some of your labs/homeworks/exams may be photocopied/scanned -->
+<!-- to be presented for accreditation at some later point. -->
 
-<p>Email me if you have not been invited to the course Slack.</p>
+<!-- ## Discrimination and Harassment -->
+
+<!-- The University does not discriminate and prohibits harassment or -->
+<!-- discrimination related to any protected category including creed, -->
+<!-- ethnicity, citizenship, sexual orientation, national origin, sex, -->
+<!-- gender, pregnancy, disability, marital status, age, race, color, -->
+<!-- veteran status, military status, religion, sexual orientation, -->
+<!-- domestic violence status, genetic information, gender identity, gender -->
+<!-- expression or perceived gender. -->
+
+<!-- Any complaint of discrimination or harassment related to any of these -->
+<!-- protected bases should be reported to Sheila Johnson-Willis, the -->
+<!-- Universitys Chief Equal Opportunity & Title IX Officer. She is -->
+<!-- responsible for coordinating compliance efforts under various laws -->
+<!-- including Titles VI, VII, IX and Section 504 of the Rehabilitation -->
+<!-- Act. She can be contacted at Equal Opportunity, Inclusion, and -->
+<!-- Resolution Services, 005 Steele Hall, Syracuse University, Syracuse, -->
+<!-- NY 13244-1120; by email: titleix@syr.edu; or by telephone: -->
+<!-- 315-443-0211. -->
+
+<!-- If you notice any incidents of harassment or discrimination, however -->
+<!-- minor, please email me. You may wish to use an anonymous email service -->
+<!-- such as https://anonymousemail.me/. Please feel free to tell me as -->
+<!-- much as you feel comfortable.  I am a mandatory Title IX reporter and -->
+<!-- must report incidents such as sexual harassment, relationship -->
+<!-- violence, stalking, etc... -->
+
+<!-- ## Slack -->
+
+<!-- Slack is an instant messaging app for teams. We'll be using it, -->
+<!-- hopefully a lot. This is the best place to get in touch with me for -->
+<!-- one-off questions, ask for an appointment for office hours, -->
+<!-- etc.. -->
+
+<!-- Email me if you have not been invited to the course Slack. -->
 
       </div>
     </div>
@@ -586,8 +564,8 @@ etc..</p>
 
 </footer>
 
-<script src=http://kmicinski.com//cis352-s21/bower_components/jquery/dist/jquery.min.js></script>
-<script src=http://kmicinski.com//cis352-s21/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js></script>
+<script src=http://localhost:4000/bower_components/jquery/dist/jquery.min.js></script>
+<script src=http://localhost:4000/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js></script>
 
 
   </body>
