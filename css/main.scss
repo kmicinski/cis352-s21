@@ -9,12 +9,12 @@
 
 // Our variables
 $base-font-family: 'Open Sans', sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     20px;
+$spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -196,8 +196,8 @@ ul p {
     color: black;
 }
 
-#compsecurity {
-  text-shadow: 1px 1px 2px #111, 0 0 25px #828282, 0 0 5px white
+.compsecurity {
+  text-shadow: 2px 2px 3px #111, 0 0 25px #828282, 0 0 5px black
 }
 
 .introtext a {
@@ -220,7 +220,7 @@ ul p {
 }
 
 .introtext {
-  padding-top: 20px;
+  padding-top: 80px;
   color: white;
 }
 
@@ -229,7 +229,7 @@ ul p {
 }
 
 .introtext h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .introtext h2 {
@@ -248,8 +248,8 @@ ul p {
     linear-gradient(to right, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 1.0) 100%), 
     linear-gradient(to left, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 1.0) 100%), 
     url({{ "/assets/img/bannershort.jpeg" | absolute_url }});
-    background-size: 800px 300px;
-    height: 300px;
+    background-size: 800px 250px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
 }

@@ -2,7 +2,7 @@
 title: CIS352
 baseurl: "" #"cis352"
 url: "http://kmicinski.com/"
-description: "(Spring '20) Programming Languages: Theory and Practice (CMSC352 at Syracuse University)"
+description: "CMSC352--Principles of Programming Languages (Spring '21) at Syracuse"
 permalink: pretty
 
 # Build settings
