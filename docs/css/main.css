@@ -49,9 +49,9 @@ pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
-.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+.wrapper { max-width: -webkit-calc(850px - (30px * 2)); max-width: calc(850px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
-@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+@media screen and (max-width: 850px) { .wrapper { max-width: -webkit-calc(850px - (30px)); max-width: calc(850px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
@@ -105,7 +105,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 850px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 
 @media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 
@@ -137,7 +137,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-title { font-size: 36px; letter-spacing: -1px; line-height: 1; }
 
-@media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
+@media screen and (max-width: 850px) { .post-title { font-size: 36px; } }
 
 .writeup-content { font-size: 14.4px; }
 
@@ -368,15 +368,15 @@ ul p { text-indent: 0px; }
 
 .post-link h2 { margin-top: auto; margin-bottom: auto; }
 
-#topcontainer { max-width: 800px; width: 800px; left: 50%; position: absolute; top: 0px; }
+#topcontainer { max-width: 850px; width: 850px; left: 50%; position: absolute; top: 0px; }
 
-#topcontent { width: 800px; position: absolute; text-align: left; top: 340px; color: #fff; left: -50%; }
+#topcontent { width: 850px; position: absolute; text-align: left; top: 340px; color: #fff; left: -50%; }
 
 #mainpagecontent { margin-top: 6.5em; }
 
 #mainpgvenn { margin-top: 50px; margin-bottom: 40px; }
 
-#mainwrapper { margin-right: auto; margin-left: auto; max-width: 800px; }
+#mainwrapper { margin-right: auto; margin-left: auto; max-width: 850px; }
 
 #mainwrapper h2 { margin-top: 1em; margin-bottom: .4em; }
 
@@ -402,7 +402,7 @@ ul p { text-indent: 0px; }
 
 .introtext h2 { font-size: 30px; }
 
-.bs-docs-header { position: relative; text-align: center; background-color: black; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, black 100%), linear-gradient(to top, rgba(0, 0, 0, 0.2) 60%, black 100%), linear-gradient(to right, rgba(0, 0, 0, 0) 90%, black 100%), linear-gradient(to left, rgba(0, 0, 0, 0) 90%, black 100%), url(http://localhost:4000/assets/img/bannershort.jpeg); background-size: 800px 250px; height: 250px; background-repeat: no-repeat; background-position: center; }
+.bs-docs-header { position: relative; text-align: center; background-color: black; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, black 100%), linear-gradient(to top, rgba(0, 0, 0, 0.2) 60%, black 100%), linear-gradient(to right, rgba(0, 0, 0, 0) 90%, black 100%), linear-gradient(to left, rgba(0, 0, 0, 0) 90%, black 100%), url(http://kmicinski.com//cis352-s21/assets/img/bannershort.jpeg); background-size: 800px 250px; height: 250px; background-repeat: no-repeat; background-position: center; }
 
 #researchareas { magin: auto; }
 
@@ -416,7 +416,7 @@ ul p { text-indent: 0px; }
 
 .projdesc { border-right: 3px double #828282; border-bottom: 0px solid #828282; }
 
-.grade-table { border-bottom: 1px solid #dee2e6; border-spacing: 0; border-collapse: separate; text-align: center; }
+.grade-table { margin-top: 30px; border-bottom: 1px solid #dee2e6; border-spacing: 0; border-collapse: separate; text-align: center; }
 
 .smgradecol { border-right: 1px dotted #828282; }
 
@@ -428,7 +428,53 @@ ul p { text-indent: 0px; }
 
 .examdesc { border-right: 3px double #828282; border-bottom: 0px solid #828282; }
 
+.card-body { padding: 5px; }
+
+.pcardtitle { margin-top: 0px; margin-bottom: 0px; text-align: center; }
+
 .tagbox { font-size: 11pt; }
+
+.card p { margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 1px; }
+
+#projectquestions { margin-top: 0px; margin-bottom: 5px; }
+
+#examquestions { border-top: 1px dotted black; margin-top: 0px; padding-top: 5px; }
+
+.egrade { margin-top: 5px; }
+
+.participation { margin-top: 15px; font-size: 11pt; line-height: 1; }
+
+.egrade { margin-left: 60px; }
+
+.pfail { stroke: lightgrey; transition: stroke-dashoffset 1s linear; stroke-width: 1em; }
+
+.pminimal { stroke: #FFC0CB; transition: stroke-dashoffset 1s linear; stroke-width: 1em; }
+
+.psat { stroke: lightgreen; transition: stroke-dashoffset 1s linear; stroke-width: 1em; }
+
+.pex { stroke: gold; transition: stroke-dashoffset 1s linear; stroke-width: 1em; }
+
+.eex { stroke: gold; transition: stroke-dashoffset 1s linear; stroke-width: 1em; stroke-dasharray: 100; stroke-dashoffset: 0; }
+
+.esat { stroke: lightgreen; transition: stroke-dashoffset 1s linear; stroke-dashoffset: 0; stroke-width: 1em; }
+
+.efail { stroke: lightgrey; transition: stroke-dashoffset 1s linear; stroke-width: 1em; }
+
+#projectquestions { position: relative; }
+
+#examquestions { position: relative; }
+
+#exams:after { position: absolute; display: block; height: 100px; width: 100px; left: 43%; top: 33%; content: attr(grade); margin-top: 0px; margin-left: 0px; border-radius: 100%; font-size: 2.5em; }
+
+#projects:after { position: absolute; display: block; left: 43%; top: 26%; content: attr(grade); margin-top: 0px; margin-left: 0px; border-radius: 100%; font-size: 2.5em; }
+
+.leftside { padding-left: 0px; padding-right: 10px; }
+
+.rightside { padding-top: 200px; padding-left: 0px; padding-right: 0px; }
+
+#min { text-align: center; }
+
+.points { font-size: 14pt; line-height: 1.4; margin-bottom: 0px; text-align: center; }
 
 /* .post-preview { */
 /*     position: relative; */
