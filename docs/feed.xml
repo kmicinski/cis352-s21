@@ -3,10 +3,10 @@
   <channel>
     <title>CIS352</title>
     <description>CMSC352--Principles of Programming Languages (Spring '21) at Syracuse</description>
-    <link>http://kmicinski.com/cis352-s21/</link>
-    <atom:link href="http://kmicinski.com/cis352-s21/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Feb 2021 02:26:05 -0500</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2021 02:26:05 -0500</lastBuildDate>
+    <link>https://kmicinski.com/cis352-s21/</link>
+    <atom:link href="https://kmicinski.com/cis352-s21/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Feb 2021 02:27:24 -0500</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2021 02:27:24 -0500</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;p&gt;Available on http://autograder.org. Use your credentials to login.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://kmicinski.com/cis352-s21/projects/0</link>
-        <guid isPermaLink="true">http://kmicinski.com/cis352-s21/projects/0</guid>
+        <link>https://kmicinski.com/cis352-s21/projects/0</link>
+        <guid isPermaLink="true">https://kmicinski.com/cis352-s21/projects/0</guid>
         
         
         <category>assignment</category>
