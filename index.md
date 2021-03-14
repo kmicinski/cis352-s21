@@ -100,32 +100,26 @@ layout: mainpage
     <tr class="table-success">
       <th scope="row">2/9</th>
       <td>Logistics</td>
-      <td>C0</td>
-      <td>Why study programming languages?</td>
-    </tr>
-    <tr class="table-success">
-      <th scope="row">2/9</th>
-      <td>Logistics</td>
-      <td>C1</td>
-      <td>Grading, Participation, Quizzes, Projects, and Honor Code</td>
+      <td></td>
+      <td><a href="https://www.youtube.com/watch?v=CrCRTFvJWoQ">Course Introduction and Logistics</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/9</th>
       <td>Lecture</td>
       <td>L0</td>
-      <td>Introduction to Racket and Dr. Racket</td>
+      <td><a href="https://www.youtube.com/watch?v=j63O7A-ZKHk">Introduction to Racket and Dr. Racket</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/11</th>
       <td>Lecture</td>
       <td>L1</td>
-      <td>Racket Forms and Callsites</td>
+      <td><a href="https://www.youtube.com/watch?v=kMOgrVjEuk8">Racket Forms and Callsites</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/11</th>
       <td>Lecture</td>
       <td>L2</td>
-      <td>Textual Substitution and Simplification</td>
+      <td><a href="https://www.youtube.com/watch?v=bnzjganKVgU">Definitions and the Environment</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/9 &ndash;</th>
@@ -137,37 +131,31 @@ layout: mainpage
       <th scope="row">2/16</th>
       <td>Lecture</td>
       <td>L3</td>
-      <td>Definitions and Procedural Abstraction</td>
+      <td><a href="https://www.youtube.com/watch?v=mwIF8cAn30I&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=5">Textual Reduction</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/16</th>
       <td>Lecture</td>
       <td>L4</td>
-      <td>Predicates, Decision Trees, and Case Splitting</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">2/16</th>
-      <td>Lecture</td>
-      <td>L5</td>
-      <td>Recursive Problem Solving in the Direct Style</td>
+      <td><a href="https://www.youtube.com/watch?v=WVmomIoxBZM&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=6">Case Splitting and Lists Intro</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/18</th>
       <td>Lecture</td>
       <td>L5</td>
-      <td>The Environment and Lexical Scope</td>
+      <td><a href="https://www.youtube.com/watch?v=0y325A82vMc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=7">Recursion over Lists</a></td>
     </tr>
     <tr class="table-success">
       <th scope="row">2/18</th>
       <td>Logistics</td>
-      <td>C2</td>
+      <td></td>
       <td>Using the Autograder</td>
     </tr>
     <tr class="table-warning">
       <th scope="row">2/18</th>
       <td>Project</td>
       <td>P0</td>
-      <td>Newton's Method</td>
+      <td>Tic-Tac-Toe</td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/16 &ndash;</th>
@@ -179,63 +167,44 @@ layout: mainpage
       <th scope="row">2/23</th>
       <td>Lecture</td>
       <td>L6</td>
-      <td>Anonymous / First-Class Functions</td>
+      <td><a href="https://www.youtube.com/watch?v=OqZleNZto0A&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=8">Lambdas</a></td>
     </tr>
     <tr class="table-primary">
-      <th scope="row">2/23</th>
+      <th scope="row">2/25</th>
       <td>Lecture</td>
       <td>L7</td>
-      <td>Big-Step Semantics of IfArith</td>
+      <td><a href="https://www.youtube.com/watch?v=7NA9HZdlR0g&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=9">Cons Diagrams and Boxes</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/25</th>
       <td>Lecture</td>
       <td>L8</td>
-      <td>Tail-Calls and Tail-Recursive Definitions</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">2/25</th>
-      <td>Lecture</td>
-      <td>L9</td>
-      <td>Converting Between Direct-Style and Tail Recursion</td>
+      <td><a href="https://www.youtube.com/watch?v=AGDnCUfFp84&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=10">Mapping Over Lists</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/23 &ndash;</th>
       <td>Reading</td>
       <td>R2</td>
-      <td><a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3">SICP section  1.3</a></td>
+      <td><a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3">SICP section  1.3</a> and <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1">2.1</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/2</th>
+      <td>Lecture</td>
+      <td>L9</td>
+      <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o">Pattern Matching</a></td>
+    </tr>
+    <tr class="table-primary">
+      <th scope="row">3/4</th>
       <td>Lecture</td>
       <td>L10</td>
-      <td>Quoted Datums, Cons Cells, and Compound Data</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/2</th>
-      <td>Lecture</td>
-      <td>L11</td>
-      <td>Cons Diagrams</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/4</th>
-      <td>Lecture</td>
-      <td>L12</td>
-      <td>Recursion Over Lists</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/4</th>
-      <td>Lecture</td>
-      <td>L13</td>
-      <td>Basic Pattern Matching</td>
+      <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw">Tail Calls and Tail Recursion</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">3/2 &ndash;</th>
       <td>Reading</td>
       <td>R3</td>
-      <td>SICP sections <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1">2.1</a>, <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-15.html">2.2</a>, and <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3">2.3</a></td>
+      <td>SICP sections <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-15.html">2.2</a> and <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3">2.3</a></td>
     </tr>
-
     <tr class="table-danger">
       <th scope="row">3/8</th>
       <td>Quiz</td>
@@ -245,57 +214,38 @@ layout: mainpage
     <tr class="table-primary">
       <th scope="row">3/9</th>
       <td>Lecture</td>
-      <td>L14</td>
-      <td>Accumulator Passing Style</td>
+      <td>L11</td>
+      <td><a href=https://www.youtube.com/watch?v=cFkHFoKW4e4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=14">Practicing Tail Recursion</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/9</th>
       <td>Lecture</td>
-      <td>L15</td>
-      <td>Higher-Order Functions (Map and Filter)</td>
+      <td>L12</td>
+      <td><a href="https://www.youtube.com/watch?v=WUAI_v110NQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=15">Folding over Lists</a></td>
     </tr>
     <tr class="table-warning">
-      <th scope="row">3/9</th>
+      <th scope="row">3/11</th>
       <td>Project</td>
       <td>P1</td>
       <td>PageRank</td>
     </tr>
     <tr class="table-primary">
-      <th scope="row">3/11</th>
+      <th scope="row">3/16</th>
       <td>Lecture</td>
-      <td>L16</td>
-      <td>Folding Over Lists</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/11</th>
-      <td>Lecture</td>
-      <td>L17</td>
-      <td>Advanced Pattern Matching</td>
+      <td>L13</td>
+      <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=16">Interpreting IfArith</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/16</th>
       <td>Lecture</td>
-      <td>L18</td>
-      <td>Okasaki-Style Lazy Queues</td>
+      <td>L14</td>
+      <td><a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a></td>
     </tr>
-    <tr class="table-primary">
-      <th scope="row">3/16</th>
-      <td>Lecture</td>
-      <td>L19</td>
-      <td>Line Coverage via. Inclusion/Exclusion</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/18</th>
-      <td>Lecture</td>
-      <td>L20</td>
-      <td>1D Line Tree in Racket</td>
-    </tr>
-
     <tr class="table-warning">
       <th scope="row">3/18</th>
       <td>Project</td>
       <td>P2</td>
-      <td>Rectangle Counting via Quadtrees</td>
+      <td>Metacircular Interpreter for Core Scheme</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/23</th>
@@ -352,12 +302,6 @@ layout: mainpage
       <td>Q1</td>
       <td>Online Synchronous Quiz 1 (60min)</td>
     </tr>
-    <tr class="table-warning">
-      <th scope="row">4/6</th>
-      <td>Project</td>
-      <td>P3</td>
-      <td>Closure-Creating Interpreter for Core Scheme</td>
-    </tr>
     <tr class="table-primary">
       <th scope="row">4/6</th>
       <td>Lecture</td>
@@ -397,7 +341,7 @@ layout: mainpage
     <tr class="table-warning">
       <th scope="row">4/15</th>
       <td>Project</td>
-      <td>P4</td>
+      <td>P3</td>
       <td>Building a Church-Encoding Compiler</td>
     </tr>
     <tr class="table-primary">
@@ -451,8 +395,14 @@ layout: mainpage
     <tr class="table-warning">
       <th scope="row">4/29</th>
       <td>Project</td>
-      <td>P5</td>
+      <td>P4</td>
       <td>Stack-Passing Interpreter (CEK Machine)</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">4/29</th>
+      <td>Project</td>
+      <td>P5</td>
+      <td>Symbolic Execution for LoopArray</td>
     </tr>
     <tr class="table-danger">
       <th scope="row">5/3</th>

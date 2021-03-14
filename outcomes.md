@@ -19,7 +19,7 @@ The student must be able to...
 direct style using numbers, lists, and conditionals.</li>
 
 <li><a href="#lo3"></a>Differentiate tail calls (and tail
-recursion) vs. direct-style calls; be able implement tail-recursive
+recursion) vs. direct-style calls; be able to implement tail-recursive
 list accumulation algorithms.</li>
 
 <li><a href="#lo4"></a>Draw cons diagrams for arbitrary
