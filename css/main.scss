@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 //@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
-@import url("//fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 // Our variables
 $base-font-family: 'Open Sans', sans-serif;
@@ -25,10 +25,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    850px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        850px;
 
 $baseurl: '{{ site.baseurl }}';
 
@@ -283,6 +283,7 @@ ul p {
 }
 
 .grade-table {
+  margin-top: 30px;
   border-bottom: 1px solid #dee2e6;
   border-spacing: 0;
   border-collapse: separate;
@@ -313,9 +314,164 @@ ul p {
   border-bottom: 0px solid #828282;
 }
 
+.card-body {
+  padding: 5px;
+}
+
+.pcardtitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center
+}
+
 .tagbox {
     font-size: 11pt;
 }
+
+.card p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+#projectquestions {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#examquestions {
+  border-top: 1px dotted black;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.egrade {
+  margin-top: 5px;
+}
+
+.participation {
+  margin-top: 15px;
+  font-size: 11pt;
+  line-height: 1;
+}
+
+// Syllabus stuff
+.egrade {
+  margin-left: 60px;
+}
+
+.pfail {
+  stroke: lightgrey;
+  transition: stroke-dashoffset 1s linear;
+  stroke-width: 1em;
+}
+
+.pminimal {
+  stroke: #FFC0CB;
+  transition: stroke-dashoffset 1s linear;
+  stroke-width: 1em;
+}
+
+.psat {
+  stroke: lightgreen;
+  transition: stroke-dashoffset 1s linear;
+  stroke-width: 1em;
+}
+
+.pex {
+  stroke: gold;
+  transition: stroke-dashoffset 1s linear;
+  stroke-width: 1em;
+}
+
+.eex {
+  stroke: gold;
+  transition: stroke-dashoffset 1s linear;
+  stroke-width: 1em;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 0;
+}
+
+.esat {
+  stroke: lightgreen;
+  transition: stroke-dashoffset 1s linear;
+  stroke-dashoffset: 0;
+  stroke-width: 1em;
+}
+
+.efail {
+  stroke: lightgrey;
+  transition: stroke-dashoffset 1s linear;
+  stroke-width: 1em;
+}
+
+#projectquestions {
+  position: relative;
+}
+
+#examquestions {
+  position: relative;
+}
+
+// .pgrade {
+//   display: block;
+//   height: 300px;
+//   width: 300px;
+//   margin: 2em auto;
+//   border-radius: 100%;
+//   position: relative;
+// }
+#exams:after {
+  position: absolute;
+  display: block;
+  height: 100px;
+  width: 100px;
+  left: 43%;
+  top: 33%;
+  content: attr(grade);
+  margin-top: 0px;
+  margin-left: 0px;
+  border-radius: 100%;
+  font-size: 2.5em;
+  //text-shadow: 0 0 0.5em black;
+}
+
+#projects:after {
+  position: absolute;
+  display: block;
+  left: 43%;
+  top: 26%;
+  content: attr(grade);
+  margin-top: 0px;
+  margin-left: 0px;
+  border-radius: 100%;
+  font-size: 2.5em;
+  //text-shadow: 0 0 0.5em black;
+}
+
+.leftside {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.rightside {
+  padding-top: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#min {
+  text-align: center;
+}
+
+.points {
+  font-size: 14pt;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
 
 /* .post-preview { */
 /*     position: relative; */
