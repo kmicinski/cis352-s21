@@ -209,13 +209,13 @@ layout: mainpage
       <th scope="row">3/8</th>
       <td>Quiz</td>
       <td>Q0</td>
-      <td>Online Synchronous Quiz 0 (60min)</td>
+      <td>Online Synchronous Quiz 0 (80min)</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/9</th>
       <td>Lecture</td>
       <td>L11</td>
-      <td><a href=https://www.youtube.com/watch?v=cFkHFoKW4e4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=14">Practicing Tail Recursion</a></td>
+      <td><a href="https://www.youtube.com/watch?v=cFkHFoKW4e4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=14">Practicing Tail Recursion</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/9</th>
@@ -227,7 +227,7 @@ layout: mainpage
       <th scope="row">3/11</th>
       <td>Project</td>
       <td>P1</td>
-      <td>PageRank</td>
+      <td><a href="https://www.youtube.com/watch?v=wWpu6UDYhc4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=19">PageRank</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/16</th>
@@ -236,161 +236,100 @@ layout: mainpage
       <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=16">Interpreting IfArith</a></td>
     </tr>
     <tr class="table-primary">
-      <th scope="row">3/16</th>
+      <th scope="row">3/18</th>
       <td>Lecture</td>
       <td>L14</td>
       <td><a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a></td>
     </tr>
-    <tr class="table-warning">
-      <th scope="row">3/18</th>
-      <td>Project</td>
-      <td>P2</td>
-      <td>Metacircular Interpreter for Core Scheme</td>
-    </tr>
     <tr class="table-primary">
       <th scope="row">3/23</th>
-      <td>Lecture</td>
-      <td>L21</td>
-      <td>Lambda Calculus Introduction</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/23</th>
-      <td>Lecture</td>
-      <td>L22</td>
-      <td>Textual Reduction of LC and Free Variables</td>
+      <td></td>
+      <td></td>
+      <td><b>SU Wellness Day (No Class)</b></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/25</th>
       <td>Lecture</td>
-      <td>L23</td>
-      <td>Lambda Calculus Evaluation Examples</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/25</th>
-      <td>Lecture</td>
-      <td>L24</td>
-      <td>The Church-Rosser Theorem and Examples</td>
+      <td>L15</td>
+      <td><a href="https://www.youtube.com/watch?v=Qq5Bzpsoi7k&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=18">Small-Step Semantics of IfArith</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/30</th>
       <td>Lecture</td>
-      <td>L25</td>
-      <td>Big-Step Semantics for LC+Bool</td>
+      <td>L16</td>
+      <td><a href="https://www.youtube.com/watch?v=RqA-m_QMJYc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=20">Lambda Calculus Introduction</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/30</th>
       <td>Lecture</td>
-      <td>L26</td>
-      <td>Closure-Creating Semantics for LC+Bool</td>
+      <td>L17</td>
+      <td><a href="https://www.youtube.com/watch?v=Paxvaq0Q-S0&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=21">Lambda Calculus: Reductions and Substitution</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/1</th>
       <td>Lecture</td>
-      <td>L27</td>
-      <td>Context and Redex Semantics Introduction</td>
-    </tr>
-
-    <tr class="table-primary">
-      <th scope="row">4/1</th>
-      <td>Lecture</td>
-      <td>L28</td>
-      <td>Context and Redex Examples</td>
-    </tr>
-    <tr class="table-danger">
-      <th scope="row">4/5</th>
-      <td>Quiz</td>
-      <td>Q1</td>
-      <td>Online Synchronous Quiz 1 (60min)</td>
+      <td>L18</td>
+      <td><a href="https://www.youtube.com/watch?v=GNkQrqAGB-o&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=22">Reduction Strategies</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/6</th>
       <td>Lecture</td>
-      <td>L29</td>
-      <td>Side Effects, set!, and Non-Termination</td>
+      <td>L19</td>
+      <td><a href="https://www.youtube.com/watch?v=DC-9wWgXQTc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=23">Church Numerals</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/8</th>
       <td>Lecture</td>
-      <td>L30</td>
-      <td>Church Encodings for Arithmetic and Lists</td>
+      <td>P2</td>
+      <td><a href="https://www.youtube.com/watch?v=izfoxmSAQ28&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=24">Church Encoding</a></td>
     </tr>
-    <tr class="table-primary">
-      <th scope="row">4/8</th>
-      <td>Lecture</td>
-      <td>L31</td>
-      <td>Church Encoding Practice</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">4/13</th>
-      <td>Lecture</td>
-      <td>L32</td>
-      <td>Implementing Recursion via the U Combinator</td>
+    <tr class="table-danger">
+      <th scope="row">4/12</th>
+      <td>Quiz</td>
+      <td>Q1</td>
+      <td>Online Synchronous Quiz 1 (100min)</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/13</th>
       <td>Lecture</td>
-      <td>L33</td>
-      <td>Practicing Recursion via U and Visualizing its Execution</td>
+      <td></td>
+      <td>Review / catch up day on lambda calculus</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/15</th>
       <td>Lecture</td>
-      <td>L34</td>
-      <td>The Y Combinator</td>
-    </tr>
-    <tr class="table-warning">
-      <th scope="row">4/15</th>
-      <td>Project</td>
-      <td>P3</td>
-      <td>Building a Church-Encoding Compiler</td>
+      <td>L20</td>
+      <td>Fixed-Point Combinators</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/20</th>
       <td>Lecture</td>
-      <td>L35</td>
+      <td>L21</td>
       <td>Continuations Introduction</td>
     </tr>
-    <tr class="table-primary">
+    <tr class="table-warning">
       <th scope="row">4/20</th>
-      <td>Lecture</td>
-      <td>L36</td>
-      <td>Continuations Examples: Preemptive Returns, etc...</td>
+      <td>Project</td>
+      <td>P3</td>
+      <td>Definitional Interpreter</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/22</th>
       <td>Lecture</td>
-      <td>L37</td>
-      <td>Implementing Loops via Continuations</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">4/22</th>
-      <td>Lecture</td>
-      <td>L38</td>
-      <td>Implementing Exceptions via Continuations</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">4/27</th>
-      <td>Lecture</td>
-      <td>L39</td>
+      <td>L22</td>
       <td>Continuation Passing Style</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">4/27</th>
       <td>Lecture</td>
-      <td>L40</td>
-      <td>The CEK Machine</td>
+      <td>L23</td>
+      <td>Continuations Example</td>
     </tr>
     <tr class="table-primary">
-      <th scope="row">4/29</th>
+      <th scope="row">4/27</th>
       <td>Lecture</td>
-      <td>L41</td>
-      <td>Preconditions and Postconditions</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">4/29</th>
-      <td>Lecture</td>
-      <td>L42</td>
-      <td>Contracts and Blame</td>
+      <td>L24</td>
+      <td>Control-Flow Constructs via Continuations</td>
     </tr>
     <tr class="table-warning">
       <th scope="row">4/29</th>
@@ -408,7 +347,7 @@ layout: mainpage
       <th scope="row">5/3</th>
       <td>Quiz</td>
       <td>Q2</td>
-      <td>Online Synchronous Quiz 2 (60min)</td>
+      <td>Online Synchronous Quiz 2 (100min)</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">5/4</th>
