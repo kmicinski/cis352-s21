@@ -3,11 +3,11 @@
   <channel>
     <title>CIS352</title>
     <description>CMSC352--Principles of Programming Languages (Spring '21) at Syracuse</description>
-    <link>https://kmicinski.com/cis352-s21/</link>
-    <atom:link href="https://kmicinski.com/cis352-s21/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Apr 2021 10:29:50 -0400</pubDate>
-    <lastBuildDate>Tue, 13 Apr 2021 10:29:50 -0400</lastBuildDate>
-    <generator>Jekyll v4.1.1</generator>
+    <link>http://kmicinski.com/cis352-s21/</link>
+    <atom:link href="http://kmicinski.com/cis352-s21/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 14 Apr 2021 01:05:06 -0400</pubDate>
+    <lastBuildDate>Wed, 14 Apr 2021 01:05:06 -0400</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>Assignment 0: Introduction to Racket</title>
@@ -16,8 +16,8 @@
 &lt;p&gt;Available on http://autograder.org. Use your credentials to login.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Jan 2020 00:00:00 -0500</pubDate>
-        <link>https://kmicinski.com/cis352-s21/projects/0</link>
-        <guid isPermaLink="true">https://kmicinski.com/cis352-s21/projects/0</guid>
+        <link>http://kmicinski.com/cis352-s21/projects/0</link>
+        <guid isPermaLink="true">http://kmicinski.com/cis352-s21/projects/0</guid>
         
         
         <category>assignment</category>
