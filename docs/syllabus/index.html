@@ -346,111 +346,120 @@ CIS352.</li>
           .table-sm td, .table-sm th {padding:0.4rem;}
         </style>
         <script>
-          function place_highlights(proj_min, proj_sat, proj_exc, exam_sat, exam_exc, part) {
-              function clamp(v, min, max) {
-                  return Math.min(Math.max(v, min), max);
-              }
-              function clear_col(base, min, max) {
-                  var i;
-                  for (i=min; i <= max; i++) {
-                      var combined = base + i.toString();
-                      var element = document.getElementById(combined);
-                      element.style.backgroundColor = 'white';
+              function place_highlights(proj_min, proj_sat, proj_exc, exam_sat, exam_exc, part, result) {
+                  function clamp(v, min, max) {
+                      return Math.min(Math.max(v, min), max);
                   }
-              }
-              function highlight(ele) {
-                  document.getElementById(ele).style.backgroundColor = "orange";
-              }
-              // first clear everything
-              clear_col("proj-min-", 2, 5);
-              clear_col("proj-sat-", 0, 5);
-              clear_col("proj-exc-", 0, 2);
-              clear_col("exam-sat-", 5, 11);
-              clear_col("exam-exc-", 0, 6);
-              // clear participation too
-              document.getElementById("part-minus").style.backgroundColor = "white";
-              document.getElementById("part-stay").style.backgroundColor = "white";
-              document.getElementById('part-plus').style.backgroundColor = "white";
-	      
-              var pm_clamped = clamp(proj_min, 2, 5);
-              highlight("proj-min-" + pm_clamped.toString());
-              var ps_clamped = clamp(proj_sat, 0, 5);
-              highlight("proj-sat-" + ps_clamped.toString());
-              var pe_clamped = clamp(proj_exc, 0, 2);
-              highlight("proj-exc-" + pe_clamped.toString());
-              var es_clamped = clamp(exam_sat, 5, 11);
-              highlight("exam-sat-" + es_clamped.toString());
-              var ee_clamped = clamp(exam_exc, 0, 6);
-              highlight("exam-exc-" + ee_clamped.toString());
-              if (part < 20) {
-                  highlight("part-minus");
-              } else if (part >= 30) {
-                  highlight("part-plus");
-              } else {
-                  highlight("part-stay");
-              }
-          }
-          
-          function calculate() {
-              var es = parseInt(document.getElementById('exam_sati').value)
-              var ee = parseInt(document.getElementById('exam_exce').value)
-              var pm = parseInt(document.getElementById('proj_mini').value)
-              var ps = parseInt(document.getElementById('proj_sati').value)
-              var pe = parseInt(document.getElementById('proj_exce').value)
-              var pa = parseInt(document.getElementById('exam_part').value)
-	      
-              var grade = [pm,ps,pe,es,ee]
-              var grade_a = [5,5,2,10,6]
-              var grade_am = [5,4,2,10,4]
-              var grade_bp = [4,4,2,9,4]
-              var grade_b = [4,3,2,8,3]
-              var grade_bm = [4,3,1,8,2]
-              var grade_cp = [3,2,1,7,1]
-              var grade_c = [3,2,0,7,0]
-              var grade_cm = [3,2,0,6,0]
-              var grade_d = [3,1,0,5,0]
-
-              var calibrate = [grade_a, grade_am, grade_bp, grade_b, grade_bm, grade_cp, grade_c, grade_cm, grade_d]
-              var count = [0,0,0,0,0]
-              var validcheck = (es >= ee) && (pe <= ps) && (ps <= pm) && (es<=11) && (pm<=5) && (pe>=0) && (ee>=0)
-              var complete = !isNaN(pm) && !isNaN(ps) && !isNaN(pe) && !isNaN(es) && !isNaN(ee) && !isNaN(pa);
-              // console.log(complete)
-              for(i=0;i<5;i++){
-                  // console.log(i)
-                  for(j=0;j<9;j++){
-                      if(grade[i]<calibrate[j][i]){
-			  count[i]++;
+                  function clear_col(base, min, max) {
+                      var i;
+                      for (i=min; i <= max; i++) {
+                          var combined = base + i.toString();
+                          var element = document.getElementById(combined);
+                          element.style.backgroundColor = 'white';
                       }
                   }
-              }
-              if(complete && validcheck){
-                  var rowsink = Math.max.apply(null, count)
-                  if(pa>=30) rowsink--;
-                  else if(pa<20) rowsink++;
-                  if(rowsink>9){
-                      result = "F";
+                  function highlight(ele) {
+                      document.getElementById(ele).style.backgroundColor = "orange";
                   }
-                  else if(rowsink<0){
-                      result = "A"
+
+                  for (i=0; i < 10; i++) {
+                          grade = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
+                          var element = document.getElementById("result-"+grade);
+                          element.style.backgroundColor = 'white';
                   }
-                  else{
-                      result = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
+
+                  // first clear everything
+                  clear_col("proj-min-", 3, 5);
+                  clear_col("proj-sat-", 0, 5);
+                  clear_col("proj-exc-", 0, 2);
+                  clear_col("exam-sat-", 4, 10);
+                  clear_col("exam-exc-", 0, 5);
+
+                  // clear participation too
+                  document.getElementById("part-minus").style.backgroundColor = "white";
+                  document.getElementById("part-stay").style.backgroundColor = "white";
+                  document.getElementById('part-plus').style.backgroundColor = "white";
+            
+                  var pm_clamped = clamp(proj_min, 3, 5);
+                  highlight("proj-min-" + pm_clamped.toString());
+                  var ps_clamped = clamp(proj_sat, 0, 5);
+                  highlight("proj-sat-" + ps_clamped.toString());
+                  var pe_clamped = clamp(proj_exc, 0, 2);
+                  highlight("proj-exc-" + pe_clamped.toString());
+                  var es_clamped = clamp(exam_sat, 4, 10);
+                  highlight("exam-sat-" + es_clamped.toString());
+                  var ee_clamped = clamp(exam_exc, 0, 5);
+                  highlight("exam-exc-" + ee_clamped.toString());
+                  if (part < 20) {
+                      highlight("part-minus");
+                  } else if (part >= 30) {
+                      highlight("part-plus");
+                  } else {
+                      highlight("part-stay");
                   }
-                  if (result) {
-                      document.getElementById("calc_result_0").innerHTML = "Projected grade:";
-                      document.getElementById("calc_result").innerHTML = result;
+                  highlight("result-" + result);
+              }
+              
+              function calculate() {
+                  var es = parseInt(document.getElementById('exam_sati').value)
+                  var ee = parseInt(document.getElementById('exam_exce').value)
+                  var pm = parseInt(document.getElementById('proj_mini').value)
+                  var ps = parseInt(document.getElementById('proj_sati').value)
+                  var pe = parseInt(document.getElementById('proj_exce').value)
+                  var pa = parseInt(document.getElementById('exam_part').value)
+            
+                  var grade = [pm,ps,pe,es,ee]
+                  var grade_a = [5,5,2,10,5]
+                  var grade_am = [5,4,2,10,4]
+                  var grade_bp = [4,4,2,9,4]
+                  var grade_b = [4,3,2,8,3]
+                  var grade_bm = [4,3,1,8,2]
+                  var grade_cp = [3,2,1,7,1]
+                  var grade_c = [3,2,0,7,0]
+                  var grade_cm = [3,2,0,6,0]
+                  var grade_d = [3,1,0,5,0]
+    
+                  var calibrate = [grade_a, grade_am, grade_bp, grade_b, grade_bm, grade_cp, grade_c, grade_cm, grade_d]
+                  var count = [0,0,0,0,0]
+                  var validcheck = (es >= ee) && (pe <= ps) && (ps <= pm) && (es<=11) && (pm<=5) && (pe>=0) && (ee>=0)
+                  var complete = !isNaN(pm) && !isNaN(ps) && !isNaN(pe) && !isNaN(es) && !isNaN(ee) && !isNaN(pa);
+                  // console.log(complete)
+                  for(i=0;i<5;i++){
+                      // console.log(i)
+                      for(j=0;j<9;j++){
+                          if(grade[i]<calibrate[j][i]){
+                            count[i]++;
+                          }
+                      }
                   }
-                  place_highlights(pm, ps, pe, es, ee, pa)
+                  if(complete && validcheck){
+                      var rowsink = Math.max.apply(null, count)
+                      if(pa>=30) rowsink--;
+                      else if(pa<20) rowsink++;
+                      if(rowsink>9){
+                          result = "F";
+                      }
+                      else if(rowsink<0){
+                          result = "A"
+                      }
+                      else{
+                          result = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
+                      }
+                      if (result) {
+                          document.getElementById("calc_result_0").innerHTML = "Projected grade:";
+                          document.getElementById("calc_result").innerHTML = result;
+                      }
+                      place_highlights(pm, ps, pe, es, ee, pa, result);
+                  }
+                  else if(!complete && validcheck){
+                      document.getElementById("calc_result_0").innerHTML = "Please complete form";
+                      document.getElementById("calc_result").innerHTML = "";
+                  }
+                  else if(complete && !validcheck){
+                      document.getElementById("calc_result_0").innerHTML = "Invalid scores";
+                      document.getElementById("calc_result").innerHTML = "";
+                  }
               }
-              else if(!complete && validcheck){
-                  document.getElementById("calc_result_0").innerHTML = "Please complete form";
-                  document.getElementById("calc_result").innerHTML = "";
-              }
-              else if(complete && !validcheck){
-                  document.getElementById("calc_result_0").innerHTML = "Invalid scores";
-                  document.getElementById("calc_result").innerHTML = "";
-              }
-          }
         </script>
       </div>
     </div>
